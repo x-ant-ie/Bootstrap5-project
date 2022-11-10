@@ -1,0 +1,91 @@
+ /* *{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.hero{
+    background-image: url(./images/banner.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+ .brand{
+    font-family: papyrus;
+    color: red;
+}  */
+
+
+
+.jumbotron{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.container h1{
+    font-size: 140px;
+    padding-top: 160px;
+}
+
+.brand{
+    font-family: papyrus;
+    color: red;
+}  
+
+.navbar{
+    border-bottom: 2px solid white;
+    
+} 
+
+.jumbotron .icons{
+    position: relative;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+   width: 100%;
+   bottom: 100px ;
+    left: 45px;
+    
+}
+
+.jumbotron img{
+    height: 25px;
+    margin: 20px;
+    
+}
+
+.story-div1{
+    padding-top :100px ;
+    padding-bottom: 100px;
+    padding-left: 100px;
+   
+    
+}
+
+.story-div1 button{
+  background-color: #e75317;
+  border: none;
+  height: 50px;
+  width: 150px;
+  color: white;
+  font-size: 22px;
+  
+}
+
+.story-div2{
+    padding-top: 200px;
+    
+}
+
+.story-div3{
+    
+    padding-top: 100px;
+   gap: 10px;
+    
+}
